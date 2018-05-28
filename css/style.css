@@ -1,0 +1,114 @@
+*{
+     margin:0px;
+     padding:0px;
+     color: floralwhite; 
+}
+.root{
+    width: 1000px;
+    height: auto;
+    background-color: rgb(39, 55, 70);
+    margin: 0px auto;
+    border-style: solid;
+}
+
+/* Head Section of page */
+
+.box1{
+    width: 1000px;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.box1 .img{
+    width:300px;
+    height:100px;
+    float: left;
+}
+
+/* Navigation Section of page */
+
+.box2{
+    width: 1000px;
+    height: 40px;
+    background-color: rgb(174, 214, 241);
+}
+.box2 .nav{
+    list-style: none;
+}
+.box2 .nav li{
+    float: left;
+    background: black;
+    height:40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    }
+.box2 .nav li a{
+    color: floralwhite;
+    text-decoration: none;
+    }
+.box2 .nav li:hover{
+    background-color: darkred;
+    font-size:18px;
+    }
+    
+/* Slide Section of page */    
+    
+.box3{
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.img1{
+    width: 1000px;
+    height: 400px;
+}
+
+/* main page services */
+.root .content{
+    width: 1000px;
+    height: 850px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+.content .services{
+    width: 300px;
+    height: 250px;
+
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    float: left;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.content .services .image{
+    width: 230px;
+    height: 150;
+    margin:30px 35px;
+    margin-bottom: 20px;
+}
+.services h3{
+    text-align: center;
+    font-size:22px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    color: floralwhite;
+}
+.services p {
+    color: blue;
+    margin-top: 3px;
+    text-align: center;
+    overflow: auto;
+    height:50px;
+    margin-bottom: 0;
+}
+
+/* footer */
+
+.root .footer{
+    width:1000px;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    text-align: center;
+    line-height: 100px;
+}
+

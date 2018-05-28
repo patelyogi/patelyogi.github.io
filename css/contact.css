@@ -1,0 +1,129 @@
+/* About Us Page */
+*{
+    margin:0px;
+    padding:0px; 
+    color: floralwhite;
+}
+.root{
+   width: 1000px;
+   height: auto;
+   background-color: rgb(39, 55, 70);
+   margin: 0px auto;
+   border-style: solid;
+}
+
+/* Head Section of page */
+
+.box1{
+   width: 1000px;
+   height: 100px;
+   background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.box1 .img{
+   width:300px;
+   height:100px;
+   float: left;
+}
+
+/* Navigation Section of page */
+
+.box2{
+   width: 1000px;
+   height: 40px;
+   background-color: rgb(174, 214, 241);
+}
+.box2 .nav{
+   list-style: none;
+}
+.box2 .nav li{
+   float: left;
+   background: black;
+   height:40px;
+   width: 200px;
+   line-height: 40px;
+   text-align: center;
+   }
+.box2 .nav li a{
+   color: floralwhite;
+   text-decoration: none;
+   }
+.box2 .nav li:hover{
+   background-color: darkred;
+   font-size:18px;
+   }
+
+/* header */
+
+.root .content{
+    height: 500px;
+    width: 1000px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.root .content .form h2{
+    color: floralwhite;
+    font-size: 60px;
+    text-align: center;
+    margin: 25px;
+}
+
+.root .content .form{
+    height: 500px;
+    width: 750px;
+    float: left; 
+}
+
+.form .table{
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 19px;
+
+}
+
+.table td{
+    margin-left: 20px;
+}
+.table .inp{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.table .area{
+    height: 100px;
+}
+
+.table .btn{
+    background-color: black;
+    font-size: 25px;
+}
+
+.root .content .address{
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    float: left;
+    width: 250px;
+    height: 500px;
+}
+
+.address h2{
+    font-size: 60px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+.address p{
+    line-height: 30px;
+    margin-left: 18px;
+    margin-top: 25px;
+    font-size: 19px;
+}
+/* footer */
+
+.root .footer{
+    width:1000px;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    text-align: center;
+    line-height: 100px;
+}

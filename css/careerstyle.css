@@ -1,0 +1,346 @@
+/* Career Page */
+*{
+    margin:0px;
+    padding:0px; 
+    color: floralwhite;
+}
+.root{
+   width: 1000px;
+   height: auto;
+   background-color: rgb(39, 55, 70);
+   margin: 0px auto;
+   border-style: solid;
+}
+
+/* Head Section of page */
+
+.box1{
+   width: 1000px;
+   height: 100px;
+   background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.box1 .img{
+   width:300px;
+   height:100px;
+   float: left;
+}
+
+/* Navigation Section of page */
+
+.box2{
+   width: 1000px;
+   height: 40px;
+   background-color: rgb(174, 214, 241);
+}
+.box2 .nav{
+   list-style: none;
+}
+.box2 .nav li{
+   float: left;
+   background: black;
+   height:40px;
+   width: 200px;
+   line-height: 40px;
+   text-align: center;
+   }
+.box2 .nav li a{
+   color: floralwhite;
+   text-decoration: none;
+   }
+.box2 .nav li:hover{
+   background-color: darkred;
+   font-size:18px;
+   }
+
+/* career content */
+
+.root .content{
+    width: 1000px;
+    height: 3500px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.content .careerheader{
+    width: 1000px;
+    height: 120px;
+}
+
+.content .careerheader h1{
+    font-size: 60px;
+    text-align: left;
+    line-height: 120px;
+    margin-left:30px;
+}
+
+.content .buttonlog{
+    width: 1000px;
+    height: 109px;
+}
+
+.content .buttonlog button{
+    margin-top: 20px;
+    margin-left:30px;
+    background-color:black;
+    padding: 20px;
+    width:300px;
+    cursor: pointer;
+    font-size: 18px;
+    word-spacing: 2px;
+    float: left;
+}
+
+.careerheader .buttonlog button:hover{
+    background-color: white;
+    color: black;
+}
+
+.info{
+    width: 1000px;
+    height: 210px;
+    float: left;
+    margin-top: 20px;
+}
+
+.info p{
+    margin-left: 30px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.head{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.head h2{
+    font-size: 40px;
+    margin-left: 30px;
+    line-height: 100px;
+}
+
+.Jumbo{
+    height: 500px;
+    width: 1000px;
+    float: left;
+}
+
+.Jumbo iframe{
+    width: 800px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.pleft{
+    width: 500px;
+    height: 2100px;
+    float: left;
+    margin-right: 0px;
+}
+
+.pright{
+    width: 500px;
+    height: 2100px;
+    float: left;
+}
+
+.pleft .photo1{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-left: 50px;
+}
+
+.pleft .photo1 img{
+    width: 400px;
+    height: 400px;
+}
+
+.pleft .photo2{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo2 h5{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height:40px;
+}
+
+.pleft .photo3{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo3 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pleft .photo4{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo4 h2{
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.pleft .photo4 img{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.pleft .photo5{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pleft .photo5 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pright .photo1{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-left: 50px;
+}
+
+.pright .photo1 img{
+    width: 400px;
+    height: 500px;
+}
+
+.pright .photo2{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo2 h3{
+    font-size: 25px;
+    text-align: center;
+    line-height:40px;
+    margin-top: 70px;   
+}
+
+
+.pright .photo2 img{
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.pright .photo3{
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo3 img{
+    width: 400px;
+    height: 300px;
+}
+
+.pright .photo4{
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo4 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.pright .photo4 h3{
+    text-align:center;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px; 
+    margin-top: 15px;
+    line-height: 35px;
+}
+
+.pright .photo5{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pright .photo5 img{
+    width: 400px;
+    height: 400px;
+}
+
+.jumbo2{
+    width: 1000px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+}
+
+.jumbo2 .photo{
+    width: 900px;
+    height:300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 25px;   
+    background-color: #464646;
+}
+
+.jumbo2 .photo img{
+    width: 900px;
+    height:300px;
+}
+
+/* footer */
+
+.root .footer{
+    width:1000px;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    text-align: center;
+    line-height: 100px;
+}   

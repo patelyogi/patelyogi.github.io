@@ -1,0 +1,132 @@
+/* About Us Page */
+*{
+    margin:0px;
+    padding:0px; 
+    color: floralwhite;
+}
+.root{
+   width: 1000px;
+   height: auto;
+   background-color: rgb(39, 55, 70);
+   margin: 0px auto;
+   border-style: solid;
+}
+
+/* Head Section of page */
+
+.box1{
+   width: 1000px;
+   height: 100px;
+   background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.box1 .img{
+   width:300px;
+   height:100px;
+   float: left;
+}
+
+/* Navigation Section of page */
+
+.box2{
+   width: 1000px;
+   height: 40px;
+   background-color: rgb(174, 214, 241);
+}
+.box2 .nav{
+   list-style: none;
+}
+.box2 .nav li{
+   float: left;
+   background: black;
+   height:40px;
+   width: 200px;
+   line-height: 40px;
+   text-align: center;
+   }
+.box2 .nav li a{
+   color: floralwhite;
+   text-decoration: none;
+   }
+.box2 .nav li:hover{
+   background-color: darkred;
+   font-size:18px;
+   }
+
+/* header */
+
+
+.content .aboutheader h1{
+    font-size: 60px;
+    padding: 20px 30px;
+}
+
+.content .aboutheader p{
+    font-size: 18px;
+    padding: 0px 30px 10px 30px;
+}
+
+/* about us service */
+.root .content{
+    width: 1000px;
+    height: 1615px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+}
+
+.content .aboutservice{
+    width: 455px;
+    height: 400px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.content .aboutservice .offimg{
+    width: 455px;
+    height: 400px;
+}
+
+/* about us service1 */
+
+.content .aboutservice1{
+    width: 455px;
+    height: 860px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.content .aboutservice1 h3{
+    font-size: 35px;
+    padding:5px 5px 15px 5px;
+    text-align: center;
+}
+
+.content .aboutservice1 h2{
+    padding:0px 5px 40px 5px;
+}
+
+.content .aboutservice1 p{
+    padding: 3px 10px 20px 10px;
+    font-size: 18px;
+}
+
+.content .aboutservice1 span{
+    text-decoration: underline;
+}
+
+.content .aboutservice1 .verimg{
+    width: 455px;
+    height: 860px;
+}
+
+/* footer */
+
+.root .footer{
+    width:1000px;
+    height: 100px;
+    background: linear-gradient(to bottom right, rgb(212, 47, 47), rgb(7, 7, 2));
+    text-align: center;
+    line-height: 100px;
+}
